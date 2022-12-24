@@ -1,0 +1,47 @@
+---
+title: ""
+about:
+  template: trestles  #Or solana
+  image-width: 20em
+  image-shape: round
+  image: files/avatar.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Ecosantos
+    # - icon: twitter
+    #   text: Twitter
+    #   href: https://twitter.com/anycommonname
+    #- icon: linkedin
+    #  text: LinkedIn
+    #  href: https://www.linkedin.com/in/Gabriel_santos1/
+    #- icon: google-scholar
+    #  text: Google Scholar
+    #  href: https://scholar.google.com/citations?user=bruHK0YAAAAJ&hl=en
+    # - icon: impactstory
+    #   text: ImpactStory
+    #   href: https://impactstory.org/u/0000-0002-4622-1146
+    #- icon: orcid
+    #  text: ORCID
+    #  href: https://orcid.org/0000-0002-4622-1146
+comments: false
+---
+
+### print (‘Hello World!’)
+I am a Brazilian population ecologist interested in many things, but particularly keen to explore the demographic drivers and fates of wildlife populations and how we can translate theory in better management actions for sustainable resources. I’m also an enthusiast of old school naturalists, citizen science and programming.
+
+Up to that, I’m a coffee seeker (a.k.a coffee addiction  ), beer taster, and an MPB (Brazilian Popular Music) lover. Something in common? Be in touch!
+
+
+
+<!-- I send out a monthly (or less frequent) newsletter with updates and musings on my various projects. If interested, [you can subscribe here.](subscribe.html) -->
+
+
+```{r}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+```
+
+

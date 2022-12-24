@@ -1,0 +1,21 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/presentations.html",
+    "items": [
+      "/presentations/2019-07-hangzhou/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/dsaide/index.html"
+    ]
+  }
+]
