@@ -18,22 +18,22 @@ execute:
   # Re-render only when source changes
   freeze: auto
 
-description-meta: "Andreas Handel's personal website."
+description-meta: "Gabriel Santos' personal website."
 
 website:
   title: "Gabriel Santos"
   site-url: "https://www.andreashandel.com"
   repo-url: https://github.com/andreashandel/andreashandelwebsite
   description: "A description for the webpage"
-  favicon: /files/icon.png 
-  google-analytics: "UA-48442618-4"
+  favicon: /files/Logo.svg 
+  # google-analytics: "UA-48442618-4"
   twitter-card: 
     creator: "@anycommonname"
   cookie-consent: false    
   search: true
   navbar:
     background: "#73C6B6"
-    logo: /files/logo.png
+    logo: /files/Logo.svg
     right:
      # - text: "About"
      #   file: index.qmd

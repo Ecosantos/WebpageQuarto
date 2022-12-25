@@ -9,3 +9,47 @@ title-block-banner: true
     \newpage
 
 # TESTE2 {#sec-teste2}
+
+```{r}
+library(bib2df)
+library(stevemisc)
+library(stringi)
+
+# load a bib file to data frame
+bib_df <- bib2df(file="./publication/export-data.bib")
+
+# clean entries
+bib_df$TITLE <- stri_replace_all_regex(bib_df$TITLE, "[\\{\\}]", "")
+bib_df$JOURNAL <- stri_replace_all_regex(bib_df$JOURNAL, "[\\{\\}]", "")
+bib_df$BOOKTITLE <- stri_replace_all_regex(bib_df$BOOKTITLE, "[\\{\\}]", "")
+
+# convert a single row back to .bib entry
+bib_entry <- paste0(capture.output(df2bib(bib_df[1,])), collapse="")
+bib_entry
+#> [1] "@Article{allanPsychophysicsContingencyAssessment2008,  Author = {Allan, Lorraine G. and Hannah, Samuel D. and Crump, Matthew J. C. and Siegel, Shepard},  Number = {2},  Pages = {226--243},  Publisher = {{American Psychological Association (APA)}},  Title = {The Psychophysics of Contingency Assessment.},  Volume = {137},  Ids = {Allan_2008},  Date = {2008},  Journaltitle = {Journal of Experimental Psychology: General},  Issn = {1939-2222, 0096-3445},  Doi = {10.1037/0096-3445.137.2.226},  Url = {https://CrumpLab.github.io/CognitionPerformanceLab/CrumpPubs/Allan et al. - 2008.pdf},  Urldate = {2013-07-03},  Abstract = {The authors previously described a procedure that permits rapid, multiple within-participant evaluations of contingency assessment (the “streamed-trial” procedure, M. J. C. Crump, S. D. Hannah, L. G. Allan, \\& L. K. Hord, 2007). In the present experiments, they used the streamed-trial procedure, combined with the method of constant stimuli and a binary classification response, to assess the psychophysics of contingency assessment. This strategy provides a methodology for evaluating whether variations in contingency assessment reflect changes in the participant’s sensitivity to the contingency or changes in the participant’s response bias (or decision criterion). The sign of the contingency (positive or negative), outcome density, and imposition of an explicit payoff structure had little influence on sensitivity to contingencies but did influence the decision criterion. The authors discuss how a psychophysical analysis can provide a better understanding of findings in the literature such as mood and age effects on contingency assessment. They also discuss the relation between a psychophysical approach and an associative account of contingency assessment.},  File = {/Users/mattcrump/Zotero/storage/AMVABHNJ/Allan et al. - 2008 - The psychophysics of contingency assessment..pdf}}"
+
+# print out the citation
+stevemisc::print_refs(bib_entry,
+                      csl = "apa.csl",
+                      spit_out = TRUE,
+                      delete_after = FALSE)
+#> Allan, L. G., Hannah, S. D., Crump, M. J. C., & Siegel, S. (2008). The
+#> psychophysics of contingency assessment. *Journal of Experimental
+#> Psychology: General*, *137*(2), 226–243.
+#> <https://doi.org/10.1037/0096-3445.137.2.226>
+#> 
+#> 
+#> 
+#> 
+```
+
+<a href="../Crump//Users/mattcrump/Zotero/storage/FP9I74BQ/Crump%20et%20al.%20-%202020%20-%20Controlling%20the%20retrieval%20of%20general%20vs%20specific%20s.pdf"> <i class="fas fa-file-pdf"> pdf </i></a>
+
+{ icon: "fa-twitter", href: "link to my twitter account",align: right}
+
+```{r, results="asis", echo=FALSE}
+  print_me <- paste0(stevemisc::print_refs(bib_entry,csl = "apa.csl",
+                                        spit_out = FALSE,
+                                        delete_after = FALSE), collapse=" ")
+  cat(print_me)
+```
