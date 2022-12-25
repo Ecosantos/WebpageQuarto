@@ -35,16 +35,20 @@ website:
     background: "#73C6B6"
     logo: /files/logo.png
     right:
-      - text: "About"
-        file: about.qmd
-      - text: "Posts"
+     # - text: "About"
+     #   file: index.qmd
+      - text: "Blog"
         file: posts.qmd
-      - text: "Presentations"
-        file: presentations.qmd
-      - text: "Projects"
-        file: projects.qmd
-      - text: "Publications"
-        file: publications.qmd
+     # - text: "Presentations"
+     #   file: presentations.qmd
+     # - text: "Projects"
+     #   file: projects.qmd
+     # - text: "Publications"
+     #   file: publications.qmd
+      - text: "Projects & Publications"
+        file: pubsAll.qmd
+      - text: "News"
+        file: index.html#featurednews #Basead on the headings created with hashtags "H" 
       # - text: "Subscribe"
       #   file: subscribe.qmd
   

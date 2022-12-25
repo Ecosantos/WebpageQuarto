@@ -1,0 +1,28 @@
+---
+listing:
+  - id: projects
+    contents: projects/**/*.qmd
+    type: grid
+    fields: [image, date, title, subtitle, categories, author, reading-time]
+    sort: "date desc"
+    #categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 3   
+page-layout: full
+title-block-banner: false
+comments: false
+include-in-header: meta.html  
+toc: true
+---
+
+## Projects
+
+::: {#projects}
+:::
+
+<a href="../projects.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all/Ver todos</button></a>
+
+<br>
+
+## Publications

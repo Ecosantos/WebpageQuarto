@@ -4,21 +4,28 @@
     "href": "about.html",
     "title": "Gabriel Santos",
     "section": "",
-    "text": "Main Caption\n\n\n\n\n\n\n\n\n\n\n\nprint ('Hello World!') I am a Brazilian population ecologist interested in many things, but particularly keen to explore the demographic drivers and fates of wildlife populations and how we can translate theory in better management actions for sustainable resources. I’m also an enthusiast of old school naturalists, citizen science and programming. Up to that, I’m a coffee seeker (a.k.a coffee addiction ), beer taster, and an MPB (Brazilian Popular Music) lover. Something in common? Be in touch!\n\n\n\n\n\nLast time updated: 2022-12-24"
+    "text": "Ooops\n\n\n\nThis page is not suppose to open!"
   },
   {
     "objectID": "about.html#news",
     "href": "about.html#news",
     "title": "Gabriel Santos",
     "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\nNote\n\n\n\nNew paper just published\nTESTE: Check our new paper! \n\n\n\nTweets by \\@Anycommonname\n\n\n\n\n\nResearch focus\nI work on data analytics and modeling of infectious diseases, mainly influenza, tuberculosis and norovirus. Lately, I have also worked a lot on COVID-19. I uses mathematical models, computational simulations and statistical analysis to understand the dynamics of pathogens on different spatial and temporal scales. I work both on the within-host level (the immunology, virology, microbiology scale) and the population level (the epidemiology, ecology, evolution scale). The ultimate goal of my work is to help design better intervention and control strategies against infectious diseases, both for individual patients and on the population level.\nDescriptions of some current research projects can be found on my research group website. Slides for recent talks and presentations are located on this website and can be found here.\n\n\nPrevious positions\nFrom 2004 - 2009, I was a Postdoctoral Fellow in the Department of Biology at Emory University in the group of Rustom Antia. During my Postdoc I made the transition from physics to infectious disease modeling.\nFrom 1999 - 2004, I did a PhD in theoretical physics at the Center for Nonlinear Science and School of Physics, Georgia Institute of Technology. I worked with Roman Grigoriev on the topic of localized control of spatially extended, nonlinear dynamical systems.\nI grew up in Germany and started my undergrad studies in 1996 at the University of Stuttgart, in Physics. I received my B.S. (or what could be considered the German equivalent) in 1999, after which I moved to the U.S.\n\n\nAdditional, completely irrelevant information\nMy current Erdős number is (as far as I’m aware) 4. (Paul Erdős -> Ernst Gabor Straus -> Raymond M. Redheffer -> Sergei S. Pilyugin -> Andreas Handel)."
+    "text": "News\n\n\n:\n\n\n\nNew paper just published\n\n\nTESTE: Check our new paper! \n\n\n\nTweets by \\@Anycommonname\n\n\n:\n\nResearch focus\nI work on data analytics and modeling of infectious diseases, mainly influenza, tuberculosis and norovirus. Lately, I have also worked a lot on COVID-19. I uses mathematical models, computational simulations and statistical analysis to understand the dynamics of pathogens on different spatial and temporal scales. I work both on the within-host level (the immunology, virology, microbiology scale) and the population level (the epidemiology, ecology, evolution scale). The ultimate goal of my work is to help design better intervention and control strategies against infectious diseases, both for individual patients and on the population level.\nDescriptions of some current research projects can be found on my research group website. Slides for recent talks and presentations are located on this website and can be found here.\n\n\nPrevious positions\nFrom 2004 - 2009, I was a Postdoctoral Fellow in the Department of Biology at Emory University in the group of Rustom Antia. During my Postdoc I made the transition from physics to infectious disease modeling.\nFrom 1999 - 2004, I did a PhD in theoretical physics at the Center for Nonlinear Science and School of Physics, Georgia Institute of Technology. I worked with Roman Grigoriev on the topic of localized control of spatially extended, nonlinear dynamical systems.\nI grew up in Germany and started my undergrad studies in 1996 at the University of Stuttgart, in Physics. I received my B.S. (or what could be considered the German equivalent) in 1999, after which I moved to the U.S.\n\n\nAdditional, completely irrelevant information\nMy current Erdős number is (as far as I’m aware) 4. (Paul Erdős -> Ernst Gabor Straus -> Raymond M. Redheffer -> Sergei S. Pilyugin -> Andreas Handel)."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Gabriel Santos",
     "section": "",
-    "text": "print (‘Hello World!’)\nI am a Brazilian population ecologist interested in many things, but particularly keen to explore the demographic drivers and fates of wildlife populations and how we can translate theory in better management actions for sustainable resources. I’m also an enthusiast of old school naturalists, citizen science and programming.\nUp to that, I’m a coffee seeker (a.k.a coffee addiction ), beer taster, and an MPB (Brazilian Popular Music) lover. Something in common? Be in touch!\n\n\nlibrary(leaflet)\nleaflet() %>%\n  addTiles() %>%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=174.768, lat=-36.852, popup=\"The birthplace of R\")"
+    "text": ":\n\n\n\n\n\n\n\n\n\n\nprint ('Hello World!')   I am a Brazilian population ecologist interested in many things, but particularly keen to explore the demographic drivers and fates of wildlife populations and how we can translate theory in better management actions for sustainable resources. I’m also an enthusiast of old school naturalists, citizen science and programming.   Up to that, I’m a coffee seeker (a.k.a coffee addiction ), beer taster, and an MPB (Brazilian Popular Music) lover.   Something in common? Be in touch!"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Gabriel Santos",
+    "section": "News",
+    "text": "News\n\n\nLast time updated: 2022-12-24\n\n\n\nNew paper just published TESTE: Check our new paper!![](https://ars.els-cdn.com/content/image/X03781127.jpg){fig-alt=\"Forest Ecology and Management Journal Cover.\" style=\"float:right;\" width=\"50\"}\n\n\nTweets by \\@Anycommonname\n\n\n\n\n\n\n:"
   },
   {
     "objectID": "posts.html",
@@ -75,5 +82,82 @@
     "title": "Publications",
     "section": "",
     "text": "TESTE1\n\\newpage\n\n\nTESTE2"
+  },
+  {
+    "objectID": "index.html#news-2",
+    "href": "index.html#news-2",
+    "title": "Gabriel Santos",
+    "section": "News 2",
+    "text": "News 2\n\nResearch focus\nI work on data analytics and modeling of infectious diseases, mainly influenza, tuberculosis and norovirus. Lately, I have also worked a lot on COVID-19. I uses mathematical models, computational simulations and statistical analysis to understand the dynamics of pathogens on different spatial and temporal scales. I work both on the within-host level (the immunology, virology, microbiology scale) and the population level (the epidemiology, ecology, evolution scale). The ultimate goal of my work is to help design better intervention and control strategies against infectious diseases, both for individual patients and on the population level.\nDescriptions of some current research projects can be found on my research group website. Slides for recent talks and presentations are located on this website and can be found here.\n\n\nPrevious positions\nFrom 2004 - 2009, I was a Postdoctoral Fellow in the Department of Biology at Emory University in the group of Rustom Antia. During my Postdoc I made the transition from physics to infectious disease modeling.\nFrom 1999 - 2004, I did a PhD in theoretical physics at the Center for Nonlinear Science and School of Physics, Georgia Institute of Technology. I worked with Roman Grigoriev on the topic of localized control of spatially extended, nonlinear dynamical systems.\nI grew up in Germany and started my undergrad studies in 1996 at the University of Stuttgart, in Physics. I received my B.S. (or what could be considered the German equivalent) in 1999, after which I moved to the U.S.\n\n\nAdditional, completely irrelevant information\nMy current Erdős number is (as far as I’m aware) 4. (Paul Erdős -> Ernst Gabor Straus -> Raymond M. Redheffer -> Sergei S. Pilyugin -> Andreas Handel)."
+  },
+  {
+    "objectID": "index.html#featurednews",
+    "href": "index.html#featurednews",
+    "title": "Gabriel Santos",
+    "section": "Featured/News",
+    "text": "Featured/News\nLast time updated: 2022-12-24\n\n\n\n\n            \n            Check out our new paper! \n            Here, we show that X, Y and Z! \n            \n            \n\n\n\nTweets by \\@Anycommonname\n\n\n\n\n\n\n:"
+  },
+  {
+    "objectID": "index.html#featurednews-1",
+    "href": "index.html#featurednews-1",
+    "title": "Gabriel Santos",
+    "section": "Featured/News",
+    "text": "Featured/News\n\nlibrary(hwordcloud)\nhwordcloud(text = MyTweets$word, size = MyTweets$freq, width = \"100%\", height = \"200px\")"
+  },
+  {
+    "objectID": "index.html#popular-topics",
+    "href": "index.html#popular-topics",
+    "title": "Gabriel Santos",
+    "section": "Popular topics",
+    "text": "Popular topics\n\nlibrary(hwordcloud)\nhwordcloud(text = MyTweets$word, size = MyTweets$freq, width = \"100%\", height = \"200px\")"
+  },
+  {
+    "objectID": "pubsAll.html",
+    "href": "pubsAll.html",
+    "title": "Gabriel Santos",
+    "section": "",
+    "text": "0 min\n\n\n\nR Package\n\n\nInfectious Disease\n\n\nModeling\n\n\nEpidemiology\n\n\nTeaching\n\n\n\n\n\n\n\nNov 1, 2020\n\n\n\n\n\n\n\n\nNo matching items\n\n\n See all/Ver todos"
+  },
+  {
+    "objectID": "pubsAll.html#recent-posts-posts-recentes",
+    "href": "pubsAll.html#recent-posts-posts-recentes",
+    "title": "Gabriel Santos",
+    "section": "Recent posts / Posts recentes",
+    "text": "Recent posts / Posts recentes\n\n\n\n See all/Ver todos"
+  },
+  {
+    "objectID": "pubsAll.html#recent-talks-palestras-recentes",
+    "href": "pubsAll.html#recent-talks-palestras-recentes",
+    "title": "Bea Milz",
+    "section": "Recent Talks / Palestras recentes",
+    "text": "Recent Talks / Palestras recentes\n Next activities/Atividades futuras\n\n\n\n See all/Ver todas"
+  },
+  {
+    "objectID": "pubsAll.html#posts-in-english",
+    "href": "pubsAll.html#posts-in-english",
+    "title": "Bea Milz",
+    "section": "Posts in English",
+    "text": "Posts in English\n\n\n\n See all posts in English"
+  },
+  {
+    "objectID": "pubsAll.html#posts-em-português",
+    "href": "pubsAll.html#posts-em-português",
+    "title": "Bea Milz",
+    "section": "Posts em Português",
+    "text": "Posts em Português\n\n\n\n Ver posts em Português"
+  },
+  {
+    "objectID": "pubsAll.html#posts-en-español",
+    "href": "pubsAll.html#posts-en-español",
+    "title": "Bea Milz",
+    "section": "Posts en Español",
+    "text": "Posts en Español"
+  },
+  {
+    "objectID": "pubsAll.html#publications",
+    "href": "pubsAll.html#publications",
+    "title": "Gabriel Santos",
+    "section": "Publications",
+    "text": "Publications"
   }
 ]
